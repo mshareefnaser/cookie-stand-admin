@@ -1,4 +1,4 @@
-import Head from 'next/head';
+aimport Head from 'next/head';
 import { useState } from 'react';
 
 
@@ -7,8 +7,13 @@ export default function Home() {
     const [cookieStand, setCookieStand] = useState('no created stands')
     function handleSubmit(event) {
         event.preventDefault();
-        let latestStand = `Location: ${event.target.location.value}, Min Customers: ${event.target.minCustomers.value}, Max Customers: ${event.target.maxCustomers.value}, Avg Cookies: ${event.target.avgCookies.value}`;
-        setCookieStand(latestStand);
+        let latestStand = {
+            location: event.target.location.value,
+            minCustomers: event.target.minCustomers.value,
+            maxCustomers: event.target.maxCustomers.value,
+            avgCookies: event.target.avgCookies.value
+        };
+        setCookieStand(JSON.stringify(latestStand, null, 2));
     }
     return (
         <div>
@@ -93,7 +98,7 @@ function Placeholder(props) {
     return (
         <div className="w-3/4 p-8 mx-auto my-10 bg-green-300 border-2 border-green-500 rounded text-center">
             <h2 className="text-2xl">Last created stand:</h2>
-            <p>{props.cookieStand}</p>
+            <p className="text-center">{props.cookieStand}</p>
         </div>
     )
 }

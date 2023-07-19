@@ -1,0 +1,23 @@
+# LAB - Class 37
+
+## Project: Cookie Stand Admin
+### Author: Mohamad Shareef Naser
+---
+### Links and Resources
+[PR link](https://github.com/mshnas9/cookie-stand-admin/pull/1)
+
+### Setup
+Navigate to the project directory:
+```bash
+cd project-name
+```
+Install the dependencies:
+```bash
+npm install
+```
+### Initialize the application
+Start the development server:
+```bash
+npm run dev
+```
+

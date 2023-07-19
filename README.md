@@ -8,7 +8,8 @@
 
 ### Links and Resources
 
-[PR link: lab37 done](https://github.com/mshnas9/cookie-stand-admin/pull/1)
+[PR link: lab37 done](https://github.com/mshnas9/cookie-stand-admin/pull/1) 
+
 [PR link: update lab37, return JSON string](https://github.com/mshnas9/cookie-stand-admin/pull/3)
 
 ### Setup

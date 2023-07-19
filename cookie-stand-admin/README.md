@@ -1,10 +1,10 @@
 # LAB - Class 37
 
-## Project: Pythonic Garage Band
+## Project: Cookie Stand Admin
 ### Author: Mohamad Shareef Naser
 ---
 ### Links and Resources
-[PR link]()
+[PR link](https://github.com/mshnas9/cookie-stand-admin/pull/1)
 
 ### Setup
 Navigate to the project directory:

@@ -1,4 +1,4 @@
-# LAB - Class 37
+# LAB - Class 37, 38, 39
 
 ## Project: Cookie Stand Admin
 
@@ -7,6 +7,7 @@
 ---
 
 ### Links and Resources
+[PR link: lab39](https://github.com/mshnas9/cookie-stand-admin/pull/5)
 
 [PR link: lab38](https://github.com/mshnas9/cookie-stand-admin/pull/4) 
 

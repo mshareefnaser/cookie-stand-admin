@@ -1,14 +1,8 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "target": "es6",
-    "jsx": "react",
-    "module": "commonjs"
-  },
-  "include": [
-    "src/**/*.js",       // Include JavaScript files in the src folder
-    "src/**/*.jsx",      // Include JSX files in the src folder
-    "components/**/*.js" // Include JavaScript files in the components folder
-  ],
-  "exclude": ["node_modules"]
+    "paths": {
+      "@/*": ["./*"]
+    }
+  }
 }

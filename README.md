@@ -7,6 +7,8 @@
 ---
 
 ### Links and Resources
+[PR link: lab40 remake](https://github.com/mshnas9/cookie-stand-admin/pull/6)
+
 [PR link: lab39](https://github.com/mshnas9/cookie-stand-admin/pull/5)
 
 [PR link: lab38](https://github.com/mshnas9/cookie-stand-admin/pull/4) 
@@ -15,24 +17,13 @@
 
 [PR link: update lab37, return JSON string](https://github.com/mshnas9/cookie-stand-admin/pull/3)
 
-### Setup
+### How to Run
 
-Navigate to the project directory:
+Visit the live page here: https://cookie-stand-admin-azure-two.vercel.app/
 
-```bash
-cd cookie-stand-admin
-```
+Enter login to view page:
 
-Install the dependencies:
+Username: admin\
+Password: admin
 
-```bash
-npm install
-```
 
-### Initialize the application
-
-Start the development server:
-
-```bash
-npm run dev
-```
